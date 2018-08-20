@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,a,p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#mainNav .navbar-nav > li > a.active,
+#mainNav .navbar-nav > li > a:hover {
+  color: rgb(126,0,195) !important;
+  background-color: transparent;
+}
+
+header {
+    background-image: url("../img/main_background.jpg");
+    background-color: rgb(153, 68, 153);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 50px 20px 30px 20px;
+}
+
+header h4 {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+@media (min-width: 992px) {
+    header h1 {
+        font-size: 120px;
+    }
+
+    header h4 {
+        font-size: 30px;
+    }
+}
+
+section.orange-background {
+    background-image: url("../img/orange_background.png");
+    background-size: cover;
+    background-color: orange;
+}
+
+.intro-section {
+    padding: 70px 0;
+}
+
+.intro-section h1 {
+    font-size: 30px;
+}
+
+.intro-image {
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .intro-section {
+        padding: 150px 0;
+    }
+
+    .intro-section h1 {
+        font-size: 45px;
+    }
+}
+
+section.black-background {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.try-section p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.try-section a {
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+section.features-section .fa, .far {
+    color: rgb(126,0,195);
+}
+
+section.features-section .selling-points {
+    margin-top: 70px;
+}
+
+section.features-section .selling-point-item {
+    margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+    section.features-section .selling-point-item {
+        margin-top: 0;
+    }
+}
+
+section.logo-section h2 {
+    color: #fff;
+}
+
+section.logo-section .logo {
+    max-width: 70px;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    section.logo-section .logo {
+        max-width: 100px;
+    }
+}
